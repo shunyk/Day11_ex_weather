@@ -77,6 +77,11 @@ public class MemberInit {
 			}
 
 		}
+		
+		/*if(yId.equals(members.get(yId).getId()) && yPw.equals(members.get(yId).getPw())) {
+			member = members.get(yId);
+		}*/
+		
 		return member;
 	}
 
@@ -94,6 +99,12 @@ public class MemberInit {
 				result = "삭제 성공";
 			}
 		}
+		
+		/*if(yId.equals(members.get(yId).getId())) {
+			members.remove(yId);
+			result = "삭제 성공";
+		}*/
+		
 
 
 		return result;
