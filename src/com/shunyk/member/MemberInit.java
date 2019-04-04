@@ -22,12 +22,12 @@ public class MemberInit {
 		sb.append("choa, choa, choa, 30, 2,");
 		sb.append("suji, suji, suji, 23, 2,");
 		sb.append("hani, hani, hani, 15, 0");
+		members = sb.toString();
 		sc = new Scanner(System.in);
 	}
 
 	public HashMap<String, Member> setMember() {
 		HashMap<String, Member> members = new HashMap<String, Member>();
-		this.members = this.sb.toString();
 		StringTokenizer st = new StringTokenizer(this.members, ",");
 
 
