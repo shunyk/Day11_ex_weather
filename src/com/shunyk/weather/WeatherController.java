@@ -39,7 +39,8 @@ public class WeatherController {
 				view.View(weather);
 				break;
 			case 3:
-				wi.deleteWeather(weathers);
+				String w = wi.deleteWeather(weathers);
+				view.View(w);
 				break;
 			case 4:
 				view.Views(weathers);
